@@ -2,18 +2,33 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<title>Rescate Rescue ePCR</title>
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div class="header">
-		<div class="container">
-			<div class="logo">Rescate Rescue ePCR</div>
-			<a href="index.html">Home</a>
-			<a href="/">About</a>
-			<a href="/">Resources</a>
-		</div>
-	</div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <nav class="navbar navbar-light bg-light">
+	    <span class="navbar-brand mb-0 h1">Rescate Rescue ePCR</span>
+	  </nav>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	  </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    	<ul class="navbar-nav mr-auto">
+		     	<li class="nav-item active">
+		        	<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		      	</li>
+		      	<li class="nav-item">
+		        	<a class="nav-link" href="/">About</a>
+		      	</li>
+		      	<li class="nav-item">
+		        	<a class="nav-link" href="/">Resources</a>
+		      	</li>
+	    	</ul>
+	  	</div>
+	</nav>
 	<div class="content">
 		<div class="banner"></div>
 		<div class="container">
@@ -21,11 +36,14 @@
 			<p>University of Nevada, Reno Computer Science and Engineering</p>
 			<hr>
 			<h2>Project Description</h2>
-			<p>Text here</p>
+			<p class="text-justify">The electronic patient care reporting (ePCR) is a web and mobile application for the Rescate emergency response team of San Carlos Mexico. The purpose of the applications is to allow the rescue team to create, store, query, and perform analysis with patient records. The system provides a graphical user interface for the input of patient records. Patient records cannot be deleted but only notes can be added. The records are stored in a database with various information related to the patients. The system allows for the querying of patient records with the data that is stored in the database. With the data, summary report generation and statistical analysis can be performed. The summary reports can be created with two date ranges that summarize the patient data in that time frame. The statistical analysis portion of the system allows for performing trend call analysis to determine the busiest times. The system utilizes authentication and role-based access. All users must be added by an admin user before they can register and log in. The admin user(s) have more permission than the standard user(s). The admin user(s) can delete users, add users, create summary reports, and elevate the permissions of a user.</p>
 		</div>
 	</div>
 	<div class="footer">
 		<p>Copyright © 2021 All Rights Reserved.</p>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
