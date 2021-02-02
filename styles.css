@@ -1,0 +1,16 @@
+body { border:0; outline:0; margin:0; padding:0; background:#eee; font-size:16px; font-family:'Arial', sans-serif; }
+h2 { margin-bottom:10px; text-transform:uppercase; text-align:center; }
+a { text-decoration:none; color:#333; transition:0.2s all ease-in; }
+a:hover { color:#00b4d9; transition:0.2s all ease-in; }
+hr { margin:100px 0; border:none; border-top:1px solid #ccc; }
+
+.header { height:70px; background:#fff; }
+.header .container { margin:0 auto; padding:5px; width:1140px; }
+.header .logo { width:65%; display:inline-block; }
+.header a { display:inline-block; margin:5px 15px; text-transform:uppercase; font-size:14px; font-weight:bold; line-height:50px; }
+
+.content { margin:0 auto; background:#fff; }
+.content .container { margin:0 auto; padding:5px; width:1000px; min-height:500px; }
+.content .banner { background:#ddd; height:400px; }
+
+.footer { height:50px; line-height:50px; background:#333; color:#fff; text-align:center; font-size:smaller; }
