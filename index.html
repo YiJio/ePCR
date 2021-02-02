@@ -9,25 +9,25 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <nav class="navbar navbar-light bg-light">
-	    <span class="navbar-brand mb-0 h1">Rescate Rescue ePCR</span>
-	  </nav>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	      <span class="navbar-toggler-icon"></span>
-	  </button>
-	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    	<ul class="navbar-nav mr-auto">
-		     	<li class="nav-item active">
-		        	<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-		      	</li>
-		      	<li class="nav-item">
-		        	<a class="nav-link" href="/">About</a>
-		      	</li>
-		      	<li class="nav-item">
-		        	<a class="nav-link" href="/">Resources</a>
-		      	</li>
-	    	</ul>
-	  	</div>
+		<nav class="navbar navbar-light bg-light">
+			<span class="navbar-brand mb-0 h1">Rescate Rescue ePCR</span>
+		</nav>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/">Resources</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 	<div class="content">
 		<div class="banner"></div>
@@ -39,13 +39,67 @@
 			<p class="text-justify">
 				The electronic patient care reporting (ePCR) is a web and mobile application for the Rescate emergency response team of San Carlos Mexico. The purpose of the applications is to allow the rescue team to create, store, query, and perform analysis with patient records. The system provides a graphical user interface for the input of patient records. Patient records cannot be deleted but only notes can be added. The records are stored in a database with various information related to the patients. The system allows for the querying of patient records with the data that is stored in the database. With the data, summary report generation and statistical analysis can be performed. The summary reports can be created with two date ranges that summarize the patient data in that time frame. The statistical analysis portion of the system allows for the performace of trend call analysis to determine the busiest times. The system utilizes authentication and role-based access. All users must be added by an admin user before they can register and log in. The admin user(s) have more permission than the standard user(s). The admin user(s) can delete users, add users, create summary reports, and elevate the permissions of a user.
 			</p>
+			<hr>
+			<h2>Team 27 Members</h2>
+			<table class="team" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<img src="https://via.placeholder.com/200x200"/>
+						<b>Kennedy Anukam</b>
+						<i>CSE Senior, UNR</i>
+					</td>
+					<td>
+						<img src="https://via.placeholder.com/200x200"/>
+						<b>Mason Harlan</b>
+						<i>CSE Senior, UNR</i>
+					</td>
+					<td>
+						<img src="https://via.placeholder.com/200x200"/>
+						<b>Yi Jiang</b>
+						<i>CSE Senior, UNR</i>
+					</td>
+					<td>
+						<img src="https://via.placeholder.com/200x200"/>
+						<b>Alexander Moore</b>
+						<i>CSE Senior, UNR</i>
+					</td>
+				</tr>
+			</table>
+			<hr>
+			<h2>Instructors & Advisors</h2>
+			<table class="team" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<img src="https://via.placeholder.com/200x200"/>
+						<b>Dr. Sergiu Dascalu</b>
+						<i>Instructor</i>
+					</td>
+					<td>
+						<img src="https://via.placeholder.com/200x200"/>
+						<b>Devrin Lee</b>
+						<i>Instructor</i>
+					</td>
+					<td>
+						<img src="https://via.placeholder.com/200x200"/>
+						<b>Bryan Pond</b>
+						<i>External Advisor</i>
+					</td>
+				</tr>
+			</table>
 		</div>
 	</div>
 	<div class="footer">
 		<p>Copyright © 2021 All Rights Reserved.</p>
 	</div>
+	<script>
+		function show() {
+			var output = document.getElementById("link");
+			if(output.style.display == "none") { output.style.display = "block"; }
+			else { output.style.display = "none"; }
+		}
+	</script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
