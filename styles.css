@@ -13,7 +13,7 @@ hr { margin:100px 0; border:none; border-top:1px solid #ccc; }
 .header a { display:inline-block; margin:5px 15px; text-transform:uppercase; font-size:14px; font-weight:bold; line-height:50px; }
 .center { display: block; margin-left:auto; margin-right:auto; width:50%;}
 .content { margin:0 auto; padding-bottom:100px; background:#fff; }
-.content .container { margin:0 auto; width:1000px; min-height:500px; }
+.content .container { margin:0 auto; max-width:1000px; min-height:500px; }
 .content .intro { background:#eee; }
 .content .intro .tag { display:flex; justify-content:space-between; margin:0 auto; width:auto; max-width:1000px; }
 .content .intro .tag div { padding:20px; }
