@@ -15,12 +15,12 @@ table.doc a { display:inline-block; padding:5px 15px; border-radius:20px; border
 table.doc a:hover { background:rgba(0,152,242,1); color:#fff; }
 
 @media only screen and (max-width:768px) {
-  
-}
-
-@media (max-width:480px) {
   table.doc { margin-bottom:15rem; }
   table.doc td { display:block; width:100%; }
   table.doc div { height:auto; text-align:center; }
   table.doc span { height:30px; }
+}
+
+@media (max-width:480px) {
+  
 }
