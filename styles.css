@@ -27,3 +27,7 @@ hr { margin:120px 0; border:none; border-top:1px solid #ccc; }
   .content table.team td { display:block; width:100%; padding:0 0 50px; }
   .content table.team td:last-child { padding:0; }
 }
+
+@media (max-width:480px){
+  .flexibile{width:75%;}
+}
