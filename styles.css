@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Source+Sans+Pro&display=swap');
 
 body { border:0; outline:0; margin:0; padding:0; font-size:16px; font-family:'Source Sans Pro', sans-serif; line-height:30px; }
-h2 { text-transform:uppercase; text-align:center; font-family:'Raleway', sans-serif; }
+h2 { margin:30px; text-transform:uppercase; text-align:center; font-family:'Raleway', sans-serif; }
 a { text-decoration:none; color:#333; transition:0.2s all ease-in; }
 a:hover { color:#00b4d9; transition:0.2s all ease-in; }
 p { margin:30px; font-size:16px; }
@@ -18,25 +18,23 @@ hr { margin:100px 0; border:none; border-top:1px solid #ccc; }
 .content .intro .tag { display:flex; justify-content:space-between; margin:0 auto 10rem; width:1000px; }
 .content .intro .tag div { padding:20px; }
 .content .banner { position:relative; background:#ddd; height:400px; }
-,content .banner .overlay { position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.2); }
+.content .banner .overlay { position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.2); }
 .content table.team { width:100%; margin:100px 0; }
 .content table.team td { text-align:center; }
 .content table.team b, .content table.team i { display:block; font-style:normal; }
+.content table.team img { width:200px; height:200px; }
 
 .footer { height:50px; line-height:50px; background:#333; color:#fff; text-align:center; font-size:smaller; }
 
 .image-overlay { position:relative; width:auto; height:100%; }
 
 @media only screen and (max-width:768px) {
-  p { margin:3.5rem; font-size:18px; }
-  .content .container, .content .intro .tag { margin:0; padding:0; width:100%; }
-  .content .intro .tag { display:block; }
+  p { font-size:20px; }
+  .content .container { padding:0; width:100%; }
   .content table.team td { display:block; width:100%; padding:0 0 50px; }
   .content table.team td:last-child { padding:0; }
-  .footer p { font-size:15px; }
 }
 
 @media (max-width:480px){
   .image-overlay{width:80%;}
 }
-
