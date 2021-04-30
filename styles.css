@@ -28,10 +28,12 @@ hr { margin:100px 0; border:none; border-top:1px solid #ccc; }
 .image-overlay { position:relative; width:auto; height:100%; }
 
 @media only screen and (max-width:768px) {
-  p { font-size:20px; }
-  .content .container { padding:0; width:100%; }
+  p { margin:3.5rem; font-size:18px; }
+  .content .container, .content .intro .tag { margin:0; padding:0; width:100%; }
+  .content .intro .tag { display:block; }
   .content table.team td { display:block; width:100%; padding:0 0 50px; }
   .content table.team td:last-child { padding:0; }
+  .footer p { font-size:15px; }
 }
 
 @media (max-width:480px){
