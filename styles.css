@@ -5,7 +5,7 @@ h2 { text-transform:uppercase; text-align:center; font-family:'Raleway', sans-se
 a { text-decoration:none; color:#333; transition:0.2s all ease-in; }
 a:hover { color:#00b4d9; transition:0.2s all ease-in; }
 p { margin:30px; font-size:16px; }
-hr { margin:120px 0; border:none; border-top:1px solid #ccc; }
+hr { margin:100px 0; border:none; border-top:1px solid #ccc; }
 
 .header { height:70px; background:#fff; }
 .header .container { margin:0 auto; padding:5px; width:1140px; }
