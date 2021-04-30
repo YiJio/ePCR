@@ -5,3 +5,8 @@ h2 { font-family:'Raleway', sans-serif; }
 a:link{color: blue;}
 hr {border:none; border-top:1px solid #ccc; }
 .footer { height:50px; line-height:50px; background:#333; color:#fff; text-align:center; font-size:smaller; }
+
+table.doc { width:100%; }
+table.doc td { padding:10px; vertical-align:top; }
+table.doc a { display:inline-block; padding:5px 15px; border-radius:20px; border:1px solid rgba(0,152,242,1); background:#fff; color:rgba(0,152,242,1); text-decoration:none; text-align:center; transition:150ms all ease-in-out; }
+table.doc a:hover { background:rgba(0,152,242,1); color:#fff; }
