@@ -15,7 +15,7 @@ hr { margin:100px 0; border:none; border-top:1px solid #ccc; }
 .content { margin:0 auto; padding-bottom:100px; background:#fff; }
 .content .container { margin:0 auto; width:1000px; min-height:500px; }
 .content .intro { background:#eee; }
-.content .intro .tag { display:flex; justify-content:space-between; margin:0 auto 10rem; width:1000px; }
+.content .intro .tag { display:flex; justify-content:space-between; margin:0 auto; width:1000px; }
 .content .intro .tag div { padding:20px; }
 .content .banner { position:relative; background:#ddd; height:400px; }
 .content .banner .overlay { position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.2); }
@@ -29,12 +29,16 @@ hr { margin:100px 0; border:none; border-top:1px solid #ccc; }
 .image-overlay { position:relative; width:auto; height:100%; }
 
 @media only screen and (max-width:768px) {
-  p { font-size:20px; }
-  .content .container { padding:0; width:100%; }
+  p { margin:3.5rem; font-size:18px; }
+  .content .container, .content .intro .tag { margin:0; padding:0; width:100%; }
+  .content .intro .tag { display:block; }
+  .content .intro .tag div { padding:1rem 3.5rem 0; }
+  .content .intro .tag div:last-child { padding-bottom:1rem; }
   .content table.team td { display:block; width:100%; padding:0 0 50px; }
   .content table.team td:last-child { padding:0; }
+  .footer p { font-size:15px; }
 }
 
 @media (max-width:480px){
-  .image-overlay{width:80%;}
+  .image-overlay { width:80%; }
 }
