@@ -2,23 +2,25 @@
 
 body { border:0; outline:0; margin:0; padding:0; font-size:16px; font-family:'Source Sans Pro', sans-serif; line-height:30px; }
 h2 { font-family:'Raleway', sans-serif; }
-a:link{color: blue;}
+a:link {color:blue; }
 hr {border:none; border-top:1px solid #ccc; }
+
 .footer { height:50px; line-height:50px; background:#333; color:#fff; text-align:center; font-size:smaller; }
 
 table.doc { margin-bottom:22rem; width:100%; }
 table.doc td { padding:10px 10px 10px 0; vertical-align:top; width:25%; }
 table.doc td:first-child { padding:10px; }
-table.doc div { padding:30px; height:200px; background:#f5f5f5; text-align:left; }
-table.doc span { display:block; margin-bottom:20px; height:70px; line-height:25px; font-size:20px; color:#385465; }
-table.doc a { display:inline-block; padding:5px 15px; border-radius:20px; border:1px solid rgba(0,152,242,1); background:#fff; color:rgba(0,152,242,1); text-decoration:none; text-align:center; transition:150ms all ease-in-out; }
+table.doc div { position:relative; padding:30px; height:230px; background:#f5f5f5; text-align:left; }
+table.doc span { position:absolute; bottom:0; left:0; display:block; padding:0 30px; height:70px; }
+table.doc h2 { display:block; font-size:20px; font-family:'Source Sans Pro', sans-serif; color:#385465; }
+table.doc a { display:inline-block; padding:5px 15px; line-height:20px; border-radius:20px; border:1px solid rgba(0,152,242,1); background:#fff; color:rgba(0,152,242,1); text-decoration:none; text-align:center; transition:150ms all ease-in-out; }
 table.doc a:hover { background:rgba(0,152,242,1); color:#fff; }
 
 @media only screen and (max-width:768px) {
   table.doc { margin-bottom:15rem; }
   table.doc td { display:block; width:100%; }
   table.doc div { height:auto; text-align:center; }
-  table.doc span { height:30px; }
+  table.doc span { position:initial; text-align:center; }
 }
 
 @media (max-width:480px) {
