@@ -21,6 +21,8 @@ hr { margin:120px 0; border:none; border-top:1px solid #ccc; }
 
 .footer { height:50px; line-height:50px; background:#333; color:#fff; text-align:center; font-size:smaller; }
 
+.image-overlay{position: relative; width: auto; height: 100%;}
+
 @media only screen and (max-width:768px) {
   p { font-size:20px; }
   .content .container { padding:0; width:100%; }
@@ -29,5 +31,6 @@ hr { margin:120px 0; border:none; border-top:1px solid #ccc; }
 }
 
 @media (max-width:480px){
-  .flexibile{width:75%;}
+  .image-overlay{width:80%;}
 }
+
